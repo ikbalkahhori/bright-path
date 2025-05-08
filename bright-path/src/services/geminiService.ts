@@ -35,7 +35,7 @@ IMPORTANT GUIDELINES:
 BrightPath's mission is to make quality international education accessible to students worldwide through transparent guidance and personalized support.`;
 
 const modelConfig = {
-    model: "gemini-1.5-pro",
+    model: "gemini-1.5-flash",
     safetySettings: [
         {
             category: HarmCategory.HARM_CATEGORY_HARASSMENT,
