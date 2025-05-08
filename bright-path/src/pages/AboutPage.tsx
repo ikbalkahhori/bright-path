@@ -48,22 +48,22 @@ export default function AboutPage() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                         {[
                             {
-                                name: "Sarah Johnson",
-                                role: "Founder & CEO",
-                                bio: "Former international student advisor with 15 years of experience in higher education.",
-                                image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=988&auto=format&fit=crop&ixlib=rb-4.0.3"
+                                name: "Yunus Ozdeniz",
+                                role: "MSc SE - North American University (NAU)",
+                                bio: "I’m a Master’s student in Computer Science (Software Engineering) at North American University (NAU), and this is my final capstone project.",
+                                image: "Yunus.jpeg"
                             },
                             {
-                                name: "Michael Chen",
-                                role: "Chief Technology Officer",
-                                bio: "Tech innovator specializing in AI solutions for education technology.",
-                                image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3"
+                                name: "Muhammadikbol Kahhori",
+                                role: "MSc SE - North American University (NAU)",
+                                bio: "I’m a Master’s student in Computer Science (Software Engineering) at North American University (NAU), and this is my final capstone project.",
+                                image: "./Kahhori.JPG"
                             },
                             {
-                                name: "Priya Sharma",
-                                role: "Head of Student Success",
-                                bio: "Education consultant who has helped 1000+ students achieve their study abroad dreams.",
-                                image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=961&auto=format&fit=crop&ixlib=rb-4.0.3"
+                                name: "Togay Bayram",
+                                role: "MSc SE - North American University (NAU)",
+                                bio: "I’m a Master’s student in Computer Science (Software Engineering) at North American University (NAU), and this is my final capstone project.",
+                                image: "./Tog.jpeg"
                             }
                         ].map((member, index) => (
                             <motion.div
@@ -84,7 +84,7 @@ export default function AboutPage() {
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
                                     <p className="text-purple-600 font-medium mb-3">{member.role}</p>
-                                    <p className="text-gray-600">{member.bio}</p>
+                                    <p className="text-gray-600 text-justify">{member.bio}</p>
                                 </div>
                             </motion.div>
                         ))}
